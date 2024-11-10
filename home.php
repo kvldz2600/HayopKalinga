@@ -30,7 +30,7 @@ $isUserLoggedIn = isset($_SESSION['user_email']);
 			<ul>
 				<li><a class="active"  href = "home.php">Home</a></li>
 				<li><a class="action" href = "services.php">Services</a></li>
-				<li><a class="action" href = "aboutus.php">About Us</a></li>
+				<li><a class="action" href = "aboutus.php">About SUs</a></li>
 				<li><a class="action" href = "contactus.php">Contact</a></li>
 				<button class="login-popup" type="button" onclick="location.href = 'login.php';"> Login</button>
 			</ul>
