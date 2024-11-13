@@ -24,17 +24,27 @@ $isUserLoggedIn = isset($_SESSION['user_email']);
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="hero">
+    <div class="hero" id = 'home'>
         <nav>
-			<label class="logo" href = "home.html">Hayop Kalinga</label>
+			<label class="logo" href = "#home">Hayop Kalinga</label>
 			<ul>
-				<li><a class="active"  href = "home.php">Home</a></li>
-				<li><a class="action" href = "services.php">Services</a></li>
-				<li><a class="action" href = "aboutus.php">About SUs</a></li>
-				<li><a class="action" href = "contactus.php">Contact</a></li>
+				<li><a class="active"  href = "#home">Home</a></li>
+				<li><a class="action" href = "#services">Services</a></li>
+				<li><a class="action" href = "#aboutus">About Us</a></li>
+				<li><a class="action" href = "#contactus">Contact Us</a></li>
 				<button class="login-popup" type="button" onclick="location.href = 'login.php';"> Login</button>
 			</ul>
         </nav>
     </div>
+<!-- Page links -->
 </body>
+<div class="services"id = 'services'>
+    <?php include 'services.php';?>
+</div>
+<div class="aboutus"id = 'aboutus'>
+    <?php include 'aboutus.php'?>
+</div>
+<div class= "contactus" id = 'contactus'>
+    <?php include 'contactus.php'?>
+</div>    
 </html>

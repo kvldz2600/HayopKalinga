@@ -6,19 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 	</head>
 	<body>
-		<nav>
-			<label class="logo" href = "home.html">Hayop Kalinga</label>
-			<ul>
-				<li><a class="action" href = "home.php">Home</a></li>
-				<li><a class="action" href = "services.php">Services</a></li>
-				<li><a class="action" href = "aboutus.php">About Us</a></li>
-				<li><a class="active">Contact</a></li>
-				<button class="login-popup" type="button" onclick="location.href = 'login.php';"> Login</button>
-			</ul>
-		</nav>
-		<div class="container">
+		<div class="container2">
 			<h1>Connect with Us</h1>
-			<p>We would love to respond to your queries and help you. Feel free to get in touch with us.</p>
+			
 				<div class="contact-box">
 					<div class="contact-left">
 						<h3>Send your request</h3>

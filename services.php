@@ -8,21 +8,10 @@
     <link rel="stylesheet" type="text/css" href="servicestyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <div class="hero">
-        <nav>
-            <label class="logo" href="home.html">Hayop Kalinga</label>
-            <ul>
-                <li><a class="action" href="home.php">Home</a></li>
-                <li><a class="active">Services</a></li>
-                <li><a class="action" href="aboutus.php">About Us</a></li>
-                <li><a class="action" href="contactus.php">Contact</a></li>
-				<button class="login-popup" type="button" onclick="location.href = 'login.php';"> Login</button>
-            </ul>
-        </nav>
+    <div class="hero">        
         <div class="wrapper">
         <h1>Services</h1>
-        <div class="container">
+        <div class="container3">
             <div class="box">
                 <img src="https://static.vecteezy.com/system/resources/previews/014/064/134/original/checkup-veterinary-color-icon-vector.jpg">
                 <h3>Check-up</h3>
