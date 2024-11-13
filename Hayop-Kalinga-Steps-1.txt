@@ -1,0 +1,30 @@
+Getting the Website Ready:
+
+1. download files
+2. download and install XAMPP 
+https://www.apachefriends.org/
+3. after installing XAMPP, navigate to htdocs folder and copy paste the downloaded files from step 1(do not copy the downloaded folder only the files inside it).
+https://www.youtube.com/watch?v=YzxV1nZv7LY
+4. Open XAMPP Control Panel and and start Apache and MYSQL
+5. Open phpMyAdmin of MYSQL
+(Step 4 & 5) https://www.youtube.com/watch?v=c0qk4aP39Rk
+6. download db_hayopkalinga.sql
+7. Create a database with the name db_hayopkalinga (make sure the name exactly as written)
+8. At the phpMyAdmin Page click Export.
+9. Copy and paste contents of db_hayopkalinga.sql
+
+Done! ✓
+
+Getting the website to run:
+1. After preparing the Website to run, Open a browser.
+2. go to localhost/home.php
+https://www.youtube.com/watch?v=1W0rL0AUh-o
+3. Navigate as you'd like.
+
+Done! ✓
+
+Login as Admin from the login.php page:
+Email: admin.hayopkalinga@gmail.com
+Password : adminhayopkalinga
+
+Done! ✓

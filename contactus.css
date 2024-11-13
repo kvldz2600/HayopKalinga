@@ -36,12 +36,12 @@ body{
 .contact-right{
 	flex-basis: 40%;
 	padding: 40px;
-	background: #71797E;
-	color:black;
+	background: white;
+	color:#C04000;
 }
 
 .contact-right h3{
-	color: black;
+	color: #C04000;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -88,7 +88,7 @@ label .contact{
 }
 
 button{
-	background: orange;
+	background: rgb(27,195,244);
 	width: 100px;
 	border: none;
 	height: 35px;

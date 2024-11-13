@@ -56,7 +56,7 @@
 							</tr>
 							<tr>
 								<td>Address:</td>
-								<td>St st blah blah balh</td>
+								<td>01 Badihoy St, corner Ferguson Rd, Brgy Surong, Baguio, Benguet</td>
 							</tr>
 						</table>
 					</div>

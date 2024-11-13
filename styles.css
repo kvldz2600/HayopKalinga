@@ -9,7 +9,7 @@
 }
 /* Background */
 html {
-  background-color: #f1a150;
+  background-color: white;
   background-repeat:no-repeat; 
   background-attachment: fixed;
   scroll-behavior: smooth;
@@ -26,26 +26,28 @@ body{
 /* Navigation bar*/
 nav{
 	top: 0px;
-	background-color: rgba(38, 200, 250, 0.801);
+	background-color: rgb(248, 250, 248);
 	height: 80px;
-	width: 97.5%;
+	width: 98.5%;
 	margin: 20px;
+	opacity: 93%;
 	border-radius: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between ;
 	position: fixed;
 	z-index: 10000;
+
 }
 
 label.logo{
 	width: 100%;
-	font-family: 'Gloria Hallelujah';
-	color: #C04000;
+	font-family: 'Poppins','Gloria Hallelujah';
+	color: #1dc2f4;
 	font-size:30px;
+	font-weight: 900;
 	line-height:70px;
 	padding: 0 100px;
-	font-weight:bold;
 }
 
 nav ul{
@@ -154,20 +156,21 @@ nav .login-popup{
 	font-family: 'Gochi Hand';
 	color: black;
 	width: 130px;
-	height: 30px;
+	height: 35px;
 	border-radius: 5px;
 	border: 2px solid #000;
 	background: transparent;
 	outline: none;
 	cursor: pointer;
-	font-size: 22px;
+	font-size: 26px;
+	font-weight: 900;
 	margin-left: 20px;
 	margin-right: 50px;
 	transition: .7s;
 }
 
 nav .login-popup:hover{
-	background-color: Orange;
+	background-color: #1dc2f4;
 	color: black;
 }
 
@@ -197,3 +200,10 @@ p a:hover{
 	transform: scaleX(1);
 	transform-origin: bottom left;
 }
+
+@font-face {
+	font-family: "Poppins";
+	font-weight: normal;
+	src: url('https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrFJXUc1NECPY.woff2') format('woff2');
+	}
+	
