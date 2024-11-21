@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 include("config.php");
 
@@ -46,6 +47,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     mysqli_close($conn);
 }
 ?>
+=======
+>>>>>>> 80320a4b7a0abaf37b3ac13927669a5ca99b890d
 <!DOCTYPE html>
 <html>
 	<head>
@@ -73,9 +76,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 					</div>
 					<div class="remember-forgot">
 						<a class="underline-animation" href="#"> Forgot Password?</a>
-					</div>
-					<div>
-					<button type="submit" name="submit" value="login now" class="btn">Login</button>
 					</div>
 					<div class="login-register">
 					<p>Don't have an account? <a href="SignUp.php" class="underline-animation">Register</a></p>
