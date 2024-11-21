@@ -7,14 +7,6 @@
 	list-style: none;
 	box-sizing: border-box;
 }
-/* Background */
-html { 
-  background-size:cover;
-  background-image:url(https://imgix.bustle.com/uploads/shutterstock/2022/2/25/415f445f-c56d-4526-bf9f-0207fb1f0a67-shutterstock-2026045151.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg);
-  background-repeat:no-repeat; 
-  background-attachment: fixed;
-}
-
 body{
 	font-family:'Gochi Hand';
 }
@@ -83,7 +75,7 @@ nav .login-popup:hover{
 
 /* Login wrapper*/
 
-.wrapper{
+.lgn{
 	margin:auto;
 	position:relative;
 	width: 400px;
@@ -98,7 +90,7 @@ nav .login-popup:hover{
 	align-items: center;
 }
 
-.wrapper .form-box{
+.lgn .form-box{
 	width: 100%;
 	padding: 40px;
 }
