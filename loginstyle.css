@@ -12,7 +12,7 @@ body{
 }
 /* Navigation bar*/
 nav{
-	background-color: rgba(191, 191, 191 ,.5);
+	background-color: #1dc2f4;
 	height: 80px;
 	width: 97.5%;
 	margin: 20px;
@@ -21,7 +21,7 @@ nav{
 
 label.logo{
 	font-family: 'Gloria Hallelujah';
-	color: #C04000;
+	color: #f8cb6e;
 	font-size:30px;
 	line-height:70px;
 	padding: 0 100px;
@@ -48,7 +48,7 @@ nav ul li a{
 }
 
 a.active, a:hover{
-	background: #F28C28;
+	background: #f8cb6e;
 	transition: .5s;
 }
 
@@ -69,7 +69,7 @@ nav .login-popup{
 }
 
 nav .login-popup:hover{
-	background-color: Orange;
+	background-color: #f8cb6e;
 	color: black;
 }
 
@@ -88,6 +88,7 @@ nav .login-popup:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: white;
 }
 
 .lgn .form-box{
@@ -135,7 +136,7 @@ form input{
 	margin-top: 10px;
 	margin-bottom: 15px;
 	border: none;
-	background-color:#0047AB;
+	background-color:#1dc2f4;
 	color: white;
 	font-size: 18px;
 	border-radius: 20px;
@@ -157,7 +158,7 @@ p a:hover{
 .underline-animation{
 	display: inline-block;
 	position: relative;
-	color: blue;
+	color: #1dc2f4;
 }
 .underline-animation:after{
 	content: '';

@@ -54,20 +54,20 @@ body{
 	margin-top:10px;
 	font-size: 45px;
 	margin-bottom: 20px;
-	color: #C04000;
+	color: #1dc2f4;
 	
 }
 
 .about-us h3{
 	font-size: 22px;
-	color: #C04000;
+	color: #1dc2f4;
 	margin-bottom: 8px;
 }
 
 .about-us p{
 	font-size: 18px;
 	line-height: 1.5;
-	color: #C04000;
+	color: #1dc2f4;
 	margin-bottom: 20px;
 }
 
@@ -92,7 +92,7 @@ body{
 	border-radius: 50%;
 	margin-right: 10px;
 	color: #FFF;
-	background-color: rgb(4,196,252);
+	background-color: #1dc2f4;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 	transition: all 0.4s ease;
 }
