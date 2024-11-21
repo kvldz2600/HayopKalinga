@@ -93,11 +93,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <p>Medical Records</p>
                         <span>></span>
                     </a>
-                    <a href="#" class="sub-menu-link">
-                        <img src="https://cdn-icons-png.flaticon.com/512/7689/7689822.png">
-                        <p>Consultation</p>
-                        <span>></span>
-                    </a>
                     <a href="logout.php" class="sub-menu-link">
                         <img src="https://static-00.iconduck.com/assets.00/log-out-icon-2048x2048-cru8zabe.png">
                         <p>Logout</p>
