@@ -60,7 +60,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 				<li><a class="action" href = "services.php">Services</a></li>
 				<li><a class="action" href = "aboutus.php">About Us</a></li>
 				<li><a class="action" href = "contactus.php">Contact</a></li>
-				<button class="login-popup" type="button" onclick="location.href = 'login.php';"> Login</button>
 			</ul>
 		</nav>
 		
@@ -85,8 +84,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 			<p> By clicking the Sign Up button, you agree to our <br>
 			<a class= "underline-animation" href="#">Terms and Conditions</a> and <a class= "underline-animation" href="#">Policy Privacy</a>
 			<br>
-			<p class ="para-2">Already have a account? <a class= "underline-animation" href="login.php"> Login here!</a></p> 
-			</p>
 		</div>
 	</body>
 </html>
