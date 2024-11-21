@@ -1,5 +1,4 @@
 <?php
-session_start();
 include("config.php");
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -57,17 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		<link rel="stylesheet" type="text/css" href="loginstyle.css">
 	</head>
 	<body>
-		<nav>
-			<label class="logo">Hayop Kalinga</label>
-			<ul>
-				<li><a class="action" href= "home.php">Home</a></li>
-				<li><a class="action" href = "services.php">Services</a></li>
-				<li><a class="action" href = "aboutus.php">About Us</a></li>
-				<li><a class="action" href = "contactus.php">Contact</a></li>
-			</ul>
-		</nav>
-		
-		<div class="wrapper">
+		<div class="lgn">
 			<div class="login-form">
 				<h2>Login</h2>
 				<form action="#" method="POST">

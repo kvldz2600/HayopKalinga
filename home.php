@@ -32,12 +32,14 @@ $isUserLoggedIn = isset($_SESSION['user_email']);
 				<li><a class="action" href = "#services">Services</a></li>
 				<li><a class="action" href = "#aboutus">About Us</a></li>
 				<li><a class="action" href = "#contactus">Contact Us</a></li>
-				<button class="login-popup" type="button" onclick="location.href = 'login.php';"> Login</button>
 			</ul>
         </nav>
     </div>
 <!-- Page links -->
 </body>
+<div class="login"id = 'login'>
+    <?php include 'login.php';?>
+</div>
 <div class="services"id = 'services'>
     <?php include 'services.php';?>
 </div>
