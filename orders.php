@@ -43,8 +43,9 @@ if (isset($_SESSION['user_email']) && $_SESSION['user_email'] == "admin.hayopkal
                     <span>Customers</span></a>
                 </li>
                 <li>
-                    <a href="diagnosis.php"><span class="las la-file-medical"></span>
-                    <span>Diagnosis</span></a>
+                    <a href="records.php"><span class="las la-user"></span>
+                    <span>Records</span>
+                    </a>
                 </li>
                 <li>
                     <a class="active"><span class="las la-receipt"></span>
@@ -53,6 +54,10 @@ if (isset($_SESSION['user_email']) && $_SESSION['user_email'] == "admin.hayopkal
                 <li>
                     <a href="inventory.php"><span class="las la-receipt"></span>
                     <span>Inventory</span></a>
+                </li>
+                <li>
+                    <a  href="logout.php"><span class="las la-user"></span>
+                        <span>Logout</span></a>
                 </li>
             </ul>
         </div>

@@ -43,8 +43,9 @@ if (isset($_SESSION['user_email']) && $_SESSION['user_email'] == "admin.hayopkal
                     <span>Customers</span></a>
                 </li>
                 <li>
-                    <a href="diagnosis.php"><span class="las la-file-medical"></span>
-                    <span>Diagnosis</span></a>
+                    <a href="records.php"><span class="las la-user"></span>
+                    <span>Records</span>
+                    </a>
                 </li>
                 <li>
                     <a href="orders.php"><span class="las la-receipt"></span>
@@ -53,6 +54,10 @@ if (isset($_SESSION['user_email']) && $_SESSION['user_email'] == "admin.hayopkal
                 <li>
                     <a href="inventory.php"><span class="las la-receipt"></span>
                     <span>Inventory</span></a>
+                </li>
+                <li>
+                    <a  href="logout.php"><span class="las la-user"></span>
+                        <span>Logout</span></a>
                 </li>
             </ul>
         </div>
@@ -133,13 +138,13 @@ if (isset($_SESSION['user_email']) && $_SESSION['user_email'] == "admin.hayopkal
                                     $breed = $row["breed"];
                                     $age = $row["age"];
                                     $pgender = $row["pgender"];
-                                    $med_history = str_replace('\\\\r\\\\n', "\n", $row["med_history"]);
+                                    $med_history = str_replace('\r\n', "\n", $row["med_history"]);
                                     $med_history = nl2br($med_history);
-                                    $allergies = str_replace('\\\\r\\\\n', "\n", $row["allergies"]);
+                                    $allergies = str_replace('\r\n', "\n", $row["allergies"]);
                                     $allergies = nl2br($allergies);
-                                    $medication = str_replace('\\\\r\\\\n', "\n", $row["medication"]);
+                                    $medication = str_replace('\r\n', "\n", $row["medication"]);
                                     $medication = nl2br($medication);
-                                    $vac_rec = str_replace('\\\\r\\\\n', "\n", $row["vac_rec"]);
+                                    $vac_rec = str_replace('\r\n', "\n", $row["vac_rec"]);
                                     $vac_rec = nl2br($vac_rec);
 
                                     echo '<tr>';

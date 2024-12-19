@@ -42,7 +42,7 @@ $sqlExpAlert = "SELECT name, exp_date, freshness FROM inventory WHERE DATEDIFF(e
 $resultExpAlert = $conn->query($sqlExpAlert);
 
 // Query to get items with quantity below 50
-$sqlStockAlert = "SELECT name, quantity, freshness FROM inventory WHERE quantity <= 200 AND freshness != 'Expired'";
+$sqlStockAlert = "SELECT name, quantity, freshness FROM inventory WHERE quantity <= 300 AND freshness != 'Expired'";
 $resultStockAlert = $conn->query($sqlStockAlert);
 
 echo '<script>';
@@ -88,8 +88,9 @@ function fetchData($result) {
                     <span>Customers</span></a>
                 </li>
                 <li>
-                    <a href="diagnosis.php"><span class="las la-file-medical"></span>
-                    <span>Diagnosis</span></a>
+                    <a href="records.php"><span class="las la-user"></span>
+                    <span>Records</span>
+                    </a>
                 </li>
                 <li>
                     <a href="orders.php"><span class="las la-receipt"></span>
@@ -98,6 +99,10 @@ function fetchData($result) {
                 <li>
                     <a class="active"><span class="las la-receipt"></span>
                     <span>Inventory</span></a>
+                </li>
+                <li>
+                    <a  href="logout.php"><span class="las la-user"></span>
+                        <span>Logout</span></a>
                 </li>
             </ul>
         </div>
